@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1098820202043",
+    "project_id": "drwash-8be1b",
+    "storage_bucket": "drwash-8be1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098820202043:android:afc1bb654c88463245361e",
+        "android_client_info": {
+          "package_name": "com.hotellaundry.hotellaundryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098820202043-dfqfrglmuijo7dmtlh9qthij8sjhvpki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI-7qBIXrZ0pxFD_aQexFz4BIwqLMnqVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098820202043-dfqfrglmuijo7dmtlh9qthij8sjhvpki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

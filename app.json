@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "호텔런드리",
+    "slug": "hotel-laundry-app",
+    "version": "1.4.4",
+    "scheme": "hotel-laundry-app",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-dev-client",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "targetSdkVersion": 35,
+            "usesCleartextTraffic": false
+          },
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*.png",
+      "**/*.jpg",
+      "**/*.jpeg",
+      "**/*.gif",
+      "**/*.svg",
+      "**/*.webp",
+      "**/*.mp4",
+      "**/*.mp3",
+      "**/*.ttf",
+      "**/*.otf",
+      "**/*.woff",
+      "**/*.woff2"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "jsEngine": "hermes",
+      "bundleIdentifier": "com.hotellaundry.hotellaundryapp",
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "We need your location to show you the nearest stores and help you find the most convenient laundry service location.",
+        "NSCameraUsageDescription": "We need access to your camera to scan QR codes for automatic store access."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hotellaundry.hotellaundryapp",
+      "versionCode": 14,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "predictiveBackGestureEnabled": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "redirectUri": "https://dev.hotel-laundry.com/auth/redirect",
+      "eas": {
+        "projectId": "0a50a323-b32b-41b6-aa31-a519dd1cb3fa"
+      }
+    },
+    "owner": "hotellaundry"
+  }
+}
